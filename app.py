@@ -41,7 +41,7 @@ if nav == "Home":
     graph = st.selectbox("What kind of Graph ? ",["Non-Interactive","Interactive"])
 
     if graph == "Non-Interactive":
-        fig = plt.figure(figsize = (6,3))
+        fig = plt.figure(figsize = (10,6))
         plt.subplot(121)
         plt.scatter(data_p["FC"],data_p["HHV"])
         plt.xlabel("FC")
