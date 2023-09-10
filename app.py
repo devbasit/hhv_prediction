@@ -28,7 +28,7 @@ ultimate_rnd     = joblib.load("utils/RND_FRST_REG_SCALED_ULTIMATE.pkl")
 ultimate_lr      = joblib.load("utils/LINEAR_REG_SCALED_ULTIMATE.pkl")
 
 st.title("HHV PREDICTOR")
-st.image("data//appImage.jpg",width = 1200)
+st.image("data//appImage.jpg",width = 500)
 nav = st.sidebar.radio("Navigation",["Home","Prediction"])
 if nav == "Home":
     
